@@ -16,7 +16,7 @@ if re.match(regex, url):
     request = urllib.request.urlopen(url);
     
     html = request.read();
-    #print(html);
+    print(html);
     print("Status code = ", request.getcode());
     
 else:
